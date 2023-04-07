@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Dancing+Script:wght@700&display=swap');
+
+body{
+    background-color: #3697DB;
+    position: relative;
+
+   
+}
+
+
+.container{
+    border: 10px solid rgba(128, 128, 128, 0.911);
+    border-radius: 50px;
+    margin: 0px auto;
+    position: relative;
+    width: 500px;
+    top: 100px;
+    height:400px ;
+    background-position: right;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1365606637/photo/shot-of-a-young-businesswoman-using-a-digital-tablet-while-at-work.jpg?b=1&s=170667a&w=0&k=20&c=iQ8qVJ5m8VrC_CwdNlzqAwKVE4r7SOdV2UZoWrGcmSQ=);
+
+}
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.content{
+    color: white;
+    text-align: center;
+   width: 100%;
+   height: 200px;
+   top: 200px;
+   left: 12px;
+    position: absolute;
+    
+}
+
+
+.content i{
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 3px solid white;
+    
+}
+
+
+button{
+    position: absolute;
+    top: 570px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    left: 520px;
+    color: lightseagreen;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight:700;
+
+
+}
+
+
+button:hover{
+    box-shadow: 2px 2px 2px lightblue;
+    transition: 3s;
+    cursor: pointer;
+}
+
+
+.pink{
+    clip-path: polygon(30% 67%, 48% 93%, 68% 68%);
+    background-color:  white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 340px;
+    left: 200px;
+
+}
+
